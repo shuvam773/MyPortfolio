@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a strong focus on building robust and scalable web applications. With hands-on experience in front-end technologies like React.JS and back-end tools such as MongoDB, Express.JS, Node.JS and MySql. I thrive on turning ideas into functional, user-friendly digital solutions. My approach combines clean code practices and a deep understanding of modern frameworks to deliver impactful results. I enjoy tackling complex problems, optimizing performance, and enhancing user experiences. Constantly learning and evolving, I’m driven to develop innovative applications that empower businesses and provide seamless experiences for their users.`;
 
@@ -66,6 +67,13 @@ export const PROJECTS = [
     description:
       "A web application that measures your typing speed by calculating words per minute (WPM). The user types a given text within a time frame, and the app displays speed, accuracy, and errors. This application helps users improve their typing skills through interactive and engaging exercises.",
     technologies: ["HTML", "CSS", "JavaScript", ],
+  },
+  {
+    title: "AI image generator",
+    image: project5,
+    description:
+      "Developed a MERN stack AI image generation web application that converts text prompts into unique images using OpenAI's DALL-E API. Integrated Cloudinary for secure image storage and MongoDB for data persistence. Features include an image gallery and real-time image generation. The application showcases proficiency in API integration, cloud storage solutions, and modern full-stack development.",
+    technologies: ["React","Express","Node","MongoDB","OpenAI API","Cloudinari"],
   },
 ];
 
