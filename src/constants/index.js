@@ -46,6 +46,7 @@ export const PROJECTS = [
     description:
       "Collaborated with Prof. Arijit Sil to develop a machine learning-based system for predicting heart attack risks. Implemented advanced data analytics techniques to identify key risk factors and patterns. Designed algorithms for early detection and proactive intervention strategies",
     technologies: ["HTML", "CSS", "JavaScript", "Python","Jupitor Notebook"],
+    link:"https://github.com/shuvam773/heart-disease-analysis-and-prediction"
   },
   {
     title: "Auction Software",
@@ -53,6 +54,7 @@ export const PROJECTS = [
     description:
       "This auction software is a full-stack web application designed to facilitate seamless online auctions. Built using the MERN stack (MongoDB, Express.js, React, and Node.js), it offers a robust and scalable solution for managing auction events efficiently.",
     technologies: ["HTML", "CSS", "React", "Express", "Node", "MongoDB"],
+    link:"https://github.com/shuvam773/auction-frontend"
   },
   {
     title: "Current weather and forecast",
@@ -60,6 +62,7 @@ export const PROJECTS = [
     description:
       "Access current weather data for any location using openweathermap API Key.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link:"https://weather-forecast-nine-omega.vercel.app/"
   },
   {
     title: "Typing Speed Checker",
@@ -67,6 +70,7 @@ export const PROJECTS = [
     description:
       "A web application that measures your typing speed by calculating words per minute (WPM). The user types a given text within a time frame, and the app displays speed, accuracy, and errors. This application helps users improve their typing skills through interactive and engaging exercises.",
     technologies: ["HTML", "CSS", "JavaScript", ],
+    link:"https://shuvam773.github.io/Typing-speed/"
   },
   {
     title: "AI image generator",
@@ -74,6 +78,7 @@ export const PROJECTS = [
     description:
       "Developed a MERN stack AI image generation web application that converts text prompts into unique images using OpenAI's DALL-E API. Integrated Cloudinary for secure image storage and MongoDB for data persistence. Features include an image gallery and real-time image generation. The application showcases proficiency in API integration, cloud storage solutions, and modern full-stack development.",
     technologies: ["React","Express","Node","MongoDB","OpenAI API","Cloudinari"],
+    link:"https://github.com/shuvam773/Generative-AI-Image-generator"
   },
 ];
 

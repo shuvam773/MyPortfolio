@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants"
 import {motion} from "motion/react"
+import { FaGithub } from "react-icons/fa";
  
 
 const Project = () => {
@@ -25,7 +26,7 @@ const Project = () => {
                     initial={{opacity:0, x:100}}
                     transition={{duration:0.5}}
                     className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 font-semibold ">{project.title}</h6>
+                        <h6 className="mb-2 font-semibold flex items-center gap-2">{project.title}{<a href={project.link} target="_blank"><FaGithub className="hover:scale-110" /></a>}</h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
                             {project.technologies.map((tech, index) =>(
                             <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{tech}</span>
