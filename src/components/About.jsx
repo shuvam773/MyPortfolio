@@ -13,7 +13,7 @@ const About = () => {
             transition = {{duration:0.5}}
             className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                    <img className="rounded-2xl"  src={aboutImg} alt=""/>
+                    <img className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"  src={aboutImg} alt=""/>
                 </div>
             </motion.div>
             <motion.div 
