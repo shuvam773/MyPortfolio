@@ -7,8 +7,9 @@
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        caveat: ['Caveat', 'serif'],
+        inter: ['var(--font-inter)'],
+        caveat: ['var(--font-caveat)'],
+        'nova-cut': ['var(--font-nova-cut)']
       },
     },
   },
