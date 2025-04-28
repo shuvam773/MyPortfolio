@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <div className=" pb-4 lg:mb-35">
       <div className="flex p-4 flex-wrap">
-        <div className="w-full lg:w-1/2 ">
+        <div className="w-full lg:w-1/2 cursor-none">
           <div className="flex flex-col items-start lg:item-start">
             <motion.h1
               variants={container(0)}

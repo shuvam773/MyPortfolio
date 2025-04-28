@@ -42,7 +42,7 @@ const About = () => {
           className="w-full flex items-center justify-center lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-lg">
+            <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-lg cursor-none">
               {ABOUT_TEXT}
             </p>
           </div>
