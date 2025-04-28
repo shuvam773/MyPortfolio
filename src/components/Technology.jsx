@@ -1,5 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { SiExpress, SiNextdotjs } from "react-icons/si";
+import { SiExpress, SiNextdotjs, SiTypescript } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -51,6 +51,12 @@ const Technology = () => {
             initial="initial"
             animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiNextdotjs  className="text-7xl "/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(2)}
+            initial="initial"
+            animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiTypescript  className="text-7xl text-blue-400"/>
             </motion.div>
             <motion.div 
             variants={iconVariants(3)}

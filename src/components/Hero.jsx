@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/skProfile.png';
+// import profilePic from '../assets/skProfile.png';
+import profile from '../assets/skProfile2.png'
 import { motion } from 'motion/react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Tilt from 'react-parallax-tilt';
@@ -69,7 +70,7 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2 }}
                 className="rounded-2xl shadow-inner"
-                src={profilePic}
+                src={profile}
                 alt="Profile"
               />
             </Tilt>
