@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from '../constants';
 // import profilePic from '../assets/skProfile.png';
-import profile from '../assets/skProfile2.png'
+import profile from '../assets/shuvamAi.jpg'
 import { motion } from 'motion/react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Tilt from 'react-parallax-tilt';
